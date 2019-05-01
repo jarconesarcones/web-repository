@@ -1,0 +1,76 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    border-bottom: 3px solid #7d97ad;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo>img{
+    width: 100px;
+}
+h2,h3{
+    font-weight: 400;
+}
+h4{
+    font-weight: 300;
+}
+@media screen and (max-width: 450px){
+    .logo>img{
+        width: 75px;
+        align-items: center;
+    }
+    .name>h1{
+        font-size: 25px;
+    }
+    .name>h2{
+        font-size: 18px;
+    }
+}
+main>img{
+    width: 100%;
+}
+section>div.columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+section>h2{
+    color: #7d97ad;
+}
+div.column{
+    width: 100%;
+}
+div.column h3{
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+}
+div.column h4{
+    text-align: center;
+}
+div.column h4>a{
+    text-align: center;
+    text-decoration: none;
+    color: #2d3c49;
+}
+div.image{
+    width: 95%;
+    margin: auto;
+}
+div.image>img{
+    width: 100%;
+}
+@media screen and (min-width: 700px){
+    div.column{
+        width: 33.333%;
+    }
+}
